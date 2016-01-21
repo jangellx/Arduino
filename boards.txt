@@ -10,7 +10,7 @@ menu.Debug=Debug port
 menu.DebugLevel=Debug Level
 
 ##############################################################
-generic.name=Generic ESP8266 Module
+generic.name=JA Generic ESP8266 Module
 
 generic.upload.tool=esptool
 generic.upload.speed=115200
@@ -223,7 +223,7 @@ generic.menu.DebugLevel.all_____.build.debug_level=-DDEBUG_ESP_CORE -DDEBUG_ESP_
 # generic.menu.FlashSize.16M.build.spiffs_blocksize=8192
 
 ##############################################################
-espduino.name=ESPDuino (ESP-13 Module)
+espduino.name=JA ESPDuino (ESP-13 Module)
 
 espduino.upload.tool=esptool
 espduino.upload.speed=115200
@@ -292,7 +292,7 @@ espduino.menu.FlashSize.4M1M.build.spiffs_end=0x3FB000
 espduino.menu.FlashSize.4M1M.build.spiffs_blocksize=8192
 espduino.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 ##############################################################
-huzzah.name=Adafruit HUZZAH ESP8266
+huzzah.name=JA Adafruit HUZZAH ESP8266
 
 huzzah.upload.tool=esptool
 huzzah.upload.speed=115200
@@ -351,7 +351,7 @@ huzzah.menu.FlashSize.4M1M.build.spiffs_blocksize=8192
 huzzah.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 ##############################################################
-nodemcu.name=NodeMCU 0.9 (ESP-12 Module)
+nodemcu.name=JA NodeMCU 0.9 (ESP-12 Module)
 
 nodemcu.upload.tool=esptool
 nodemcu.upload.speed=115200
@@ -419,7 +419,7 @@ nodemcu.menu.FlashSize.4M1M.build.spiffs_blocksize=8192
 nodemcu.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 ##############################################################
-nodemcuv2.name=NodeMCU 1.0 (ESP-12E Module)
+nodemcuv2.name=JA NodeMCU 1.0 (ESP-12E Module)
 
 nodemcuv2.upload.tool=esptool
 nodemcuv2.upload.speed=115200
@@ -490,7 +490,7 @@ nodemcuv2.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 
 ##############################################################
-modwifi.name=Olimex MOD-WIFI-ESP8266(-DEV)
+modwifi.name=JA Olimex MOD-WIFI-ESP8266(-DEV)
 
 modwifi.upload.tool=esptool
 modwifi.upload.speed=115200
@@ -548,7 +548,7 @@ modwifi.menu.UploadSpeed.921600=921600
 modwifi.menu.UploadSpeed.921600.upload.speed=921600
 
 ##############################################################
-thing.name=SparkFun ESP8266 Thing
+thing.name=JA SparkFun ESP8266 Thing
 
 thing.upload.tool=esptool
 thing.upload.speed=921600
@@ -605,7 +605,7 @@ thing.menu.UploadSpeed.921600=921600
 thing.menu.UploadSpeed.921600.upload.speed=921600
 
 ##############################################################
-esp210.name=SweetPea ESP-210
+esp210.name=JA SweetPea ESP-210
 
 esp210.upload.tool=esptool
 esp210.upload.speed=115200
@@ -671,7 +671,7 @@ esp210.menu.FlashSize.4M1M.build.spiffs_blocksize=8192
 esp210.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 ##############################################################
-# wifio.name=Wifio
+# wifio.name=JA Wifio
 #
 # wifio.upload.tool=esptool
 # wifio.upload.speed=115200
@@ -700,7 +700,7 @@ esp210.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 #
 
 ##############################################################
-d1_mini.name=WeMos D1 R2 & mini
+d1_mini.name=JA WeMos D1 R2 & mini
 
 d1_mini.upload.tool=esptool
 d1_mini.upload.speed=460800
@@ -773,7 +773,7 @@ d1_mini.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 
 ##############################################################
-d1.name=WeMos D1(Retired)
+d1.name=JA WeMos D1(Retired)
 
 d1.upload.tool=esptool
 d1.upload.speed=460800
@@ -847,7 +847,7 @@ d1.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 ##############################################################
 
-espino.name=ESPino
+espino.name=JA ESPino
 
 espino.upload.tool=esptool
 espino.upload.speed=115200
@@ -928,7 +928,7 @@ espino.menu.ResetMethod.nodemcu=nodemcu
 espino.menu.ResetMethod.nodemcu.upload.resetmethod=nodemcu
 
 ##############################################################
-wifinfo.name=WifInfo
+wifinfo.name=JA WifInfo
 
 wifinfo.upload.tool=esptool
 wifinfo.upload.speed=115200
