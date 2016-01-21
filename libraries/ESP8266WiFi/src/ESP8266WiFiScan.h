@@ -34,7 +34,7 @@ class ESP8266WiFiScanClass {
 
     public:
 
-        int8_t scanNetworks(bool async = false, bool show_hidden = false);
+        int8_t scanNetworks( int channel, bool async = false, bool show_hidden = false);
 
         int8_t scanComplete();
         void scanDelete();
