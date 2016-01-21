@@ -1,6 +1,12 @@
-Arduino core for ESP8266 WiFi chip
+Customized Arduino core for ESP8266 WiFi chip
 ===========================================
+This is a fork of the official ESP8266 Arduino project.  The only difference is the addition of a "channel" argument for WiFi.scanNetworks(), which I needed for my wifi scanner project.  Otherwise, this fork is identical to the main branch.
 
+Original documentation follows...
+
+
+# Arduino core for ESP8266 WiFi chip
+==================================
 This project brings support for ESP8266 chip to the Arduino environment. It lets you write sketches using familiar Arduino functions and libraries, and run them directly on ESP8266, no external microcontroller required.
 
 ESP8266 Arduino core comes with libraries to communicate over WiFi using TCP and UDP, set up HTTP, mDNS, SSDP, and DNS servers, do OTA updates, use a file system in flash memory, work with SD cards, servos, SPI and I2C peripherals.
